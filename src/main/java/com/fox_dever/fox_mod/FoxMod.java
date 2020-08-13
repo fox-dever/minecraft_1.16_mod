@@ -27,6 +27,7 @@ public class FoxMod
         eventBus.addListener(this::doClientStuff);
 
         ModItems.ITEMS.register(eventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
